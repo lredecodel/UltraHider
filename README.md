@@ -21,7 +21,7 @@ make
 
 ### Steps to setup for analysis
 
-Make sure you created the shellcode first with `msfvenom` like so:
+Make sure you creat the shellcode first with `msfvenom` like so:
 ```bash
 msfvenom -p windows/x64/exec cmd=calc.exe EXITFUNC=thread -f raw -o calc.bin
 ```
