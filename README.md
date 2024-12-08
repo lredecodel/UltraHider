@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates how to download a file over HTTP, encrypt/decrypt its contents, and execute it as shellcode in memory. I mostly tried doing this out of curiosity. I'm just trying to get a sort of "building block" so I can attempt to create a Sleep Obfuscation technique and see how it works to then improve on it later for future projects... maybe a C2? 👀🤷 Who knows...
+This project demonstrates how to download a file over HTTP using the WinHTTP library, encrypt/decrypt its contents using XOR single-byte key, and execute it as shellcode in memory. I mostly tried doing this out of curiosity. I'm just trying to get a sort of "building block" so I can attempt to create a Sleep Obfuscation technique and see how it works to then improve on it later for future projects... maybe a C2? 👀🤷 Who knows...
 
 ## Project Structure
 
